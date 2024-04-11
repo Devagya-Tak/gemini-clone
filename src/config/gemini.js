@@ -1,6 +1,6 @@
 // node --version # Should be >= 18
 // npm install @google/generative-ai
-import {API_KEY} from './key'
+import {API_KEY} from './key' // use your own gemini API key
 import {
     GoogleGenerativeAI,
     HarmCategory,
@@ -52,4 +52,4 @@ import {
     console.log(response.text());
   }
   
-  runChat();
+export default runChat;
